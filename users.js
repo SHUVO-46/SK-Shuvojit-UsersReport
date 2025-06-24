@@ -1,0 +1,23 @@
+
+const users = {
+    'ADMIN1': 'ADMIN1',
+    'ADMIN2': 'ADMIN2',
+    'ADMIN3': 'ADMIN3',
+    'ADMIN4': 'ADMIN4',
+    'ADMIN5': 'ADMIN5',
+    'ADMIN6': 'ADMIN6',
+    'ADMIN7': 'ADMIN7',
+    'ADMIN8': 'ADMIN8',
+    'ADMIN9': 'ADMIN9',
+    'ADMIN10': 'ADMIN10',
+    'ADMIN11': 'ADMIN11',
+    'ADMIN12': 'ADMIN12',
+    'ADMIN13': 'ADMIN13',
+    'ADMIN14': 'ADMIN14',
+    'ADMIN15': 'ADMIN15',
+    'ADMIN16': 'ADMIN16',
+    'ADMIN17': 'ADMIN17',
+    'ADMIN18': 'ADMIN18',
+    'ADMIN19': 'ADMIN19',
+    'ADMIN20': 'ADMIN20'
+};

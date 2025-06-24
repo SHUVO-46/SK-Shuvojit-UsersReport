@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UID Report System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-section">
+        <h2>LOGIN</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p id="login-error"></p>
+    </div>
+
+    <div id="main-section" style="display: none;">
+        <h1>UID Report System 😈</h1>
+        
+        <textarea id="uid-input" placeholder="Paste UID list here..."></textarea>
+        <button onclick="processUID()">Submit</button>
+
+        <div id="report">
+            <h3>Report</h3>
+            <p>Total UID: <span id="total-uid">0</span></p>
+            <p>✅ OK UID: <span id="ok-uid">0</span></p>
+            <p>🔄 Return UID: <span id="return-uid">0</span></p>
+            <p>💵 Amount: <span id="amount">0</span> tk</p>
+            <p>🎯 Today Your Earning: <span id="earning">0</span> tk</p>
+            
+            <table id="result-table">
+                <thead>
+                    <tr>
+                        <th>UID</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+<script src="users.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

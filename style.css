@@ -1,0 +1,35 @@
+
+body {
+    background: black;
+    color: #00ff00;
+    font-family: monospace;
+    text-align: center;
+    padding: 20px;
+}
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    background: #111;
+    color: lime;
+    border: 1px solid lime;
+}
+button {
+    padding: 10px 20px;
+    background: lime;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid lime;
+    padding: 8px;
+}
+#login-error {
+    color: red;
+}
