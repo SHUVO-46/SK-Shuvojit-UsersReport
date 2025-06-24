@@ -32,7 +32,7 @@ function processUID() {
             statusCell.innerText = '✅ OK';
             okCount++;
         } else {
-            statusCell.innerText = '🔄 Return';
+            statusCell.innerText = '🚫 BACK';
             returnCount++;
         }
 
